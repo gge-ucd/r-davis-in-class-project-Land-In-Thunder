@@ -1,3 +1,5 @@
-Welcome to R-DAVIS! 
+Name: Landin Thunder Noland
+Pronouns: He/Him/His
+Research Area/Interests: Restoration Ecology, Fire Ecology, Land Stewardship
 
-This is the 'README' file for your class repository -- a place where you can share notes for your project. Typically when you start a new project this can be a good place to provide an overview of what's happening in this R project. 
+http:168.150.117.162:8080
