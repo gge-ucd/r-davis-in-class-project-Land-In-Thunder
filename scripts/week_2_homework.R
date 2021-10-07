@@ -17,3 +17,5 @@ plus10 <- 10 + times3
 plus10
 
 plus10[c(T,F)]
+
+## Finish HW
