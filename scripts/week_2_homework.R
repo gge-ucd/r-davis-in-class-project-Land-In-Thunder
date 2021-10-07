@@ -20,7 +20,8 @@ prob1 <- hw2[hw2 >= 14 & hw2 <= 38]
 prob1
 
 #Vector multiplication
-times3 <- 3 * prob1
+times3 <- prob1 * 3
+
 times3
 
 #Vector plus 10
