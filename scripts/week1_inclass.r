@@ -50,3 +50,5 @@ test_list[2]
 
 
 # need to be able to make a vector, a data frame, and a list - Need to be able to index from a vector, data frame, and list
+
+##Fin Week 1 in class
