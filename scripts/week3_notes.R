@@ -85,3 +85,12 @@ surveys
 #subsetting in tibbles is a bit different
 surveys_t[,1]
 #still a tibble rather than a vector
+
+## END VIDEO LECURE FROM WEEK 3
+
+
+
+
+
+
+
