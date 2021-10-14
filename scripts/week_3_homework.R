@@ -11,3 +11,16 @@ surveys_base_naomit
 
 surveys_new <- surveys_base_naomit[(surveys_base_naomit[,2]>150),]
 surveys_new
+
+
+
+challenge_base <- surveys_base[which(surveys_base$weight>150),]
+summary(challenge_base$weight)
+
+surveys_base$weight > 150
+which(surveys_base$weight>150)
+
+surveys_base[surveys_base$weight>150,]
+
+
+
