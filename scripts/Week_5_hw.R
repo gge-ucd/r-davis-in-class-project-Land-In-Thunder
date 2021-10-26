@@ -42,4 +42,4 @@ case_cond2
 
 #HW answers did clear up the NA's thing a bit, but it would be helpful to review in class. I am still not particularly clear.
 
-#I am also not clear on the double bracket and how it ended up with the quartile values. It would be helpful to go over this as well!
+#I am also not clear on the double bracket and how it ended up with the quartile values. It would be helpful to go over this as well! I will try and take a look again before thursday to help clear up confusion.
