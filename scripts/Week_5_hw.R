@@ -8,10 +8,16 @@ surveys <- read_csv('data/portal_data_joined.csv')
 temp_df <- surveys %>% filter(!is.na(hindfoot_length)) %>%  group_by(genus, plot_type) %>% summarize(mean_hindfoot = mean(hindfoot_length))
 
 #use pivot_wider to rearrange for desired effect and arrange to sort the rows by control hindfoot mean from low to high.
-wide_1 <- pivot_wider(temp_df, id_cols = 'genus', names_from = 'plot_type', values_from = mean_hindfoot) %>% arrange(Control)
+wide_1 <- pivot_wider(temp_df, id_cols = 'genus', names_from = 'plot_type', values_from = mean_hindfoot) 
 
-wide_1
+wide_1 %>% arrange(wide_1)
 
+wide_1 %>%  arrange(desc(Control))
+?pivot_longer
+surveys_reverse <- wide_1 %>%
+  pivot_longer(cols = c(Control:`Spectab exclosure`),
+               names_to = "plot_type",
+               values_to = "mean_hindfoot")
 
 #Using the original surveys dataframe, use the two different functions we laid out for conditional statements, ifelse() and case_when(), to calculate a new weight category variable called weight_cat. For this variable, define the rodent weight into three categories, where “small” is less than or equal to the 1st quartile of weight distribution, “medium” is between (but not inclusive) the 1st and 3rd quartile, and “large” is any weight greater than or equal to the 3rd quartile. (Hint: the summary() function on a column summarizes the distribution). For ifelse() and case_when(), compare what happens to the weight values of NA, depending on how you specify your arguments.
 
