@@ -1,3 +1,5 @@
+install.packages('Rtools')
+
 library(tidyverse)
 library(ggthemes)
 gapminder <- read_csv("https://gge-ucd.github.io/R-DAVIS/data/gapminder.csv")
